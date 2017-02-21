@@ -1,0 +1,7 @@
+.col {
+    float: left;
+}
+
+[data-flex] {
+    width: calc(100% / attr(data-flex integer));
+}
